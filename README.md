@@ -1,5 +1,5 @@
 # Projekt 5 - Natural-Language-Processing
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Natural-Language-Processing/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Natural-Language-Processing/main?filepath=Nlp%20-%20Projekt%205.ipynb)
 
 **Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
 -> %conda install pandas 
