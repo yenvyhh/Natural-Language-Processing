@@ -1,37 +1,6 @@
 # Projekt 5 - Natural-Language-Processing
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Natural-Language-Processing/main?filepath=Nlp%20-%20Projekt%205.ipynb)
 
-**Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
--> %conda install pandas 
--> %conda install numpy
--> %conda install sqlalchemy 
--> %conda install lxml
--> %conda install openpyxl 
--> %conda install xlrd 
--> %conda install matplotlib 
--> %conda install seaborn 
--> %conda install scikit-learn - sklearn
---> %conda install pydot
---> %conda install graphviz
---> %pip install pydot
---> %pip install graphviz
---> %pip install six
---> %conda install nltk
-
-**Zu Beginn des Notebooks, werden die installierten Librarys wie folgt importiert:**
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-%matplotlib inline
-
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import classification_report,confusion_matrix
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.pipeline import Pipeline
-
 **Die Daten werden nun importiert, als DataFrame abgespeichert und das Head wird angezeigt:**
 yelp = pd.read_csv("Yelp.csv")
 yelp.head()
