@@ -1,6 +1,8 @@
 # Projekt 5 - Natural-Language-Processing
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Natural-Language-Processing/main?filepath=Nlp%20-%20Projekt%205.ipynb)
 
+**Zu Beginn bitte unter "Cell" -> "Run All" auswählen.**
+
 **Die Daten werden nun importiert, als DataFrame abgespeichert und das Head wird angezeigt:**
 yelp = pd.read_csv("Yelp.csv")
 yelp.head()
